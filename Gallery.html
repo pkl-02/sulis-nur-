@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="heroes.css">
+    <link rel="stylesheet" href="js/bootstrap.js">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gallery</title>
+</head>
+<body>
+
+  <style>
+    .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  .overlay-dark::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0, 0, 0.5);
+    z-index: 1;
+  }
+  </style>
+  </head>
+  <body>
+  
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">PT.SR12 HERBAL SKINCARE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample03">
+            <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+             <li class="nav-item">
+              <a class="nav-link" href="Gallery.html">Gallery</a>
+             </li>
+    
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+    
+          </div>
+        </div>
+      </nav>
+      <!--Akhir Navbar-->
+
+      <!--Carousel-->
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+          <img src="img/SR12(31).png" style="width: 100%;" alt="">
+    
+            <div class="container">
+              <div class="carousel-caption text-dark">
+                <h1>Punya masalah Dengan Kulit Kering atau Berjerawat?</h1>
+                <p>Temukan solusinya dengan produk SR12 Herbal Skincare kami yang telah teruji Klinis</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Browser gallery</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/SR12  (44).png" style="width: 100%;" alt="">
+            <div class="container">
+              <div class="carousel-caption text-dark">
+                <h1>Pabrik Kosmetik Dan Skincare Terbaik</h1>
+                <p>Mari Menggunakan SR12 Herbal Skincare</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Klik Disini</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/SR12 (60).png" style="width: 100%;" alt="">
+            <div class="container">
+              <div class="carousel-caption text-dark">
+                <h1>Bingung dengan Produk SR12 Herbal Skincare ?</h1>
+            <p>Tersedia dalam berbagai varian untuk memenuhi kebutuhan kulit normal,kering,berminyak atau sensitif</p>
+                <p><a class="btn btn-lg btn-primary" href="Gallery.html">Sign Up Today</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--Akhir Corousel-->
+
+      <!-- Galery -->
+      <section class="galery">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col">
+              <h1></h1>
+              <hr>
+            </div>
+          </div>
+          <div class="album py-5 bg-body-tertiary">
+            <div class="container">
+        
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/SR12  (40).png" alt="gambar gallery">
+                    <div class="card-body">
+                      <p class="card-text">Memberikan kesan merona pada bibir dan tahan lama.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/SR12 (33).png" alt="gambar gallery">
+                    <div class="card-body">
+                      <p class="card-text">Bibir glow-up dan lembap.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/SR12 (34).png" alt="gambar gallery">
+                    <div class="card-body">
+                      <p class="card-text">Dapat menghilangkan bau badan, dan mencerahkan ketiak.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/SR12 (35).png" alt="gambar gallery">
+                    <div class="card-body">
+                      <p class="card-text">BB Cream Natural Beige dapat menyamarkan noda hitam/noda bekas jerawat dan melindungi dari pengaruh buruk sinar matahari.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/SR12 (36).png" alt="gambar gallery">
+                    <div class="card-body">
+                      <p class="card-text">Coffe Herbal Soap dapat menyamarkan flek hitam dan noda bekas jerawat.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                   <img src="img/SR12 (39).png" alt="gambar gallery">
+                    <div class="card-body">
+                      <p class="card-text">Facial Foam Glutation dapat membersihkan kotoran dan minyak yang menempel di wajah.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/SR12 (41).png" alt="gambar gallery">
+                    <div class="card-body">
+                      <p class="card-text">GOMILKU Susu Kambing Etawa dapat memelihara kesehatan tubuh dan mengurangi lemak pada tubuh.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/SR12 (42).png" alt="gambar gallery">
+                    <div class="card-body">
+                      <p class="card-text">V-CO Oil Untuk Wajah membantu meningkatkan elastisitas dan kecantikan kulit.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                   <img src="img/SR12 (43).png" alt="gambar gallery">
+                    <div class="card-body">
+                      <p class="card-text">Lip Glow Magic dapat Membantu Bibir Glow-up dan Lembap serta tidak menyebabkan bibir menjadi hitam.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/SR12 (45).png" alt="gambar gallery">
+                    <div class="card-body">
+                      <p class="card-text">Deodorant Spray SR12 dapat mengontrol keringat yang berlebih dan tidak meninggalkan noda di baju.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/SR12 (46).png" alt="gambar gallery">
+                    <div class="card-body">
+                      <p class="card-text">Ceramide Gel SR12 Ekstrak Komomile yang dapat menenangkan dan menyejukkan kulit wajah.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/SR12 (48).png" alt="gambar gallery">
+                    <div class="card-body">
+                      <p class="card-text">Double Cleansing membantu mengatasi jerawat dan untuk mencerahkan kulit wajah.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/SR12 (49).png" alt="gambar gallery">
+                    <div class="card-body">
+                      <p class="card-text">Lip Tint Gel SR12 berkhasiat dalam melembabkan dan menutrsi bibir menjadi lebih berwarna.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/SR12 (50).png" alt="gambar gallery">
+                    <div class="card-body">
+                      <p class="card-text">Lip Cream Matte SR12 menutrisi bibir serta awet dan tahan lama up to 6 jam .</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                   <img src="img/SR12 (51).png" alt="gambar gallery">
+                    <div class="card-body">
+                      <p class="card-text">Parfum Booperi SR12 memiliki keharuman mewah, dan tahan lama.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/SR12 (53).png" alt="gambar gallery">
+                    <div class="card-body">
+                      <p class="card-text">Facial Wash SR12 memiliki varian tersendiri yang cocok untuk masalah pada kulit wajah.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="img/SR12 (54).png" alt="gambar gallery">
+                    <div class="card-body">
+                      <p class="card-text">Skincare Routine Untuk kulit wajah yang sensitif.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                   <img src="img/SR12 (59).png" alt="gambar gallery">
+                    <div class="card-body">
+                      <p class="card-text">Dapatkan tampilan warna kuku yang cantik dengan menggunakan Nail Polish Peel Off SR12.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-body-secondary">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="album py-5 bg-body-tertiary">
+          <div class="container">
+      
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="img/SR12 (56).png" alt="gambar gallery">
+                  <div class="card-body">
+                    <p class="card-text">Menjadikan kulit lembut, melembabkan kulit, direkomendasikan untuk kulit kering.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="img/SR12 (57).png" alt="gambar gallery">
+                  <div class="card-body">
+                    <p class="card-text">Dapat digunakan untuk wajah dan tubuh.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="img/SR12 (58).png" alt="gambar gallery">
+                  <div class="card-body">
+                    <p class="card-text">Mampu menghaluskan, melembabkan, mencerahkan, dan mampu meregenerasi sel kulit yang mati.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/SR12 (65).png" alt="gambar gallery">
+              <div class="card-body">
+                <p class="card-text">Facial Wash Green Tea SR12 bisa membantu menghilangkan minyak yang berlebihan pd wajah.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/SR12 (66).png" alt="gambar gallery">
+              <div class="card-body">
+                <p class="card-text">Brightening Day Cream dan Brightening Night Cream membantu mencerahkan kulit serta melembabkan kulit.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/SR12 (67).png" alt="gambar gallery">
+              <div class="card-body">
+                <p class="card-text">Rice Herbal Soap dapat membuat kulit cerah, sehat, dan berkilau.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/SR12 (68).png" alt="gambar gallery">
+              <div class="card-body">
+                <p class="card-text">Body Wash SR12 membantu melembabkan dan mencerahkan kulit tubuh, serta menyegarkan kulit tubuh.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/SR12 (69).png" alt="gambar gallery">
+              <div class="card-body">
+                <p class="card-text">Scrub Cream Coffe SR12 membantu mengencangkan kulit, serta melembapkan kulit.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+             <img src="img/SR12 (70).png" alt="gambar gallery">
+              <div class="card-body">
+                <p class="card-text">Brightening Series Sr12 dengan kandungan unggulan arbutin diuji klinis sebagai pencerah terdepan didalam dunia kosmetik.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/SR12 (71).png" alt="gambar gallery">
+              <div class="card-body">
+                <p class="card-text">Bedak Padat Sr12 yang mengandung kaya akan mineral + Vit B3 serta with SPF 25 yang membantu wajah dari polusi udara/debu.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="img/SR12 (72).png" alt="gambar gallery">
+              <div class="card-body">
+                <p class="card-text">Sheet Mask SR12 membantu mencerahkan kulit, serta membantu meningkatkan elastisitas dan kecantikan kulit.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+             <img src="img/SR12 (73).png" alt="gambar gallery">
+              <div class="card-body">
+                <p class="card-text">Shiyou Collagen Sr12 dapat membantu meningkatkan kesehatan kulit dan rambut.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Akhir Galery -->
+
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link px-2 text-body-secondary">About</a></li>
+          </ul>
+          <p class="text-center text-body-secondary">&copy; 2017-2021 Company, inc "Privasy" jawa timur</p>
+        </footer>
+      </div>
+
+      <!-- Features -->
+          <!-- <div class="container px-4 py-5" id="custom"-->
+
+      <!-- About -->
+
+      <!---->
+      <script src="js/bootstrap.js"></script>
+    </body>
+</html>
